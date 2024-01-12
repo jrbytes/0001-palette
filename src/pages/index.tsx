@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { Fira_Sans } from 'next/font/google'
 import styles from '../styles/Home.module.css'
-import { Palette } from '@/components/Palette/Palette'
+import Link from 'next/link'
 
 const inter = Fira_Sans({
   weight: ['500'],
@@ -17,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
-        <Palette />
+        <Link href="/palette">01. Palette Copy To Clipboard</Link>
       </main>
     </>
   )
