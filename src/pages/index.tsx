@@ -12,12 +12,13 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>0001 - Palette</title>
+        <title>jrbytes/react-examples</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <Link href="/palette">01. Palette Copy To Clipboard</Link>
+        <Link href="/draft-js">02. Draft.js: Rich Text Editor Framework</Link>
       </main>
     </>
   )
