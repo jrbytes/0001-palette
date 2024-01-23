@@ -1,3 +1,49 @@
+:root {
+  --background: #282a36;
+  --current-line: #44475a;
+  --foreground: #f8f8f2;
+  --comment: #6272a4;
+  --cyan: #8be9fd;
+  --green: #50fa7b;
+  --orange: #ffb86c;
+  --pink: #ff79c6;
+  --purple: #bd93f9;
+  --red: #ff5555;
+  --yellow: #f1fa8c;
+}
+
 * {
   box-sizing: border-box; 
+}
+
+body {
+  background-color: #44475a;
+  font-size: 1.2rem;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  color: #f8f8f2;
+  font-size: 1.2rem;
+}
+
+a {
+  color: #8be9fd;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+button {
+  background-color: #bd93f9;
+  border-radius: 0.25rem;
+  border: none;
+  font-family: 'Fira Code';
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #ff79c6;
 }

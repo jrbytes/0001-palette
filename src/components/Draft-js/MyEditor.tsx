@@ -36,7 +36,7 @@ export function MyEditor() {
             }}>Itálico</button>
           </div>
 
-          <div style={{ border: '1px solid gray', borderRadius: '0.25rem' }}>
+          <div style={{ border: '1px solid var(--foreground)', borderRadius: '0.25rem', color: 'var(--purple)', backgroundColor: 'var(--foreground)' }}>
             <Editor
               ref={editor}
               editorState={editorState}
@@ -45,7 +45,7 @@ export function MyEditor() {
             />
           </div>
 
-          <div style={{ marginTop: '0.5rem', whiteSpace: 'pre-line' }}>{text}</div>
+          <div style={{ marginTop: '0.5rem', whiteSpace: 'pre-line', color: 'var(--foreground)' }}>{text}</div>
         </>
       )}
     </>

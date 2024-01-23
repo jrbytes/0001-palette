@@ -2,7 +2,7 @@
   width: 700px;
   background-color: #fafafa;
   padding: 40px;
-  box-shadow: 1px 1px 50px gray;
+  box-shadow: 1px 1px 50px var(--background);
   border-radius: 20px
 }
 
