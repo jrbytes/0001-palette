@@ -1,0 +1,27 @@
+.wrapper {
+  width: 700px;
+  background-color: var(--background);
+  padding: 40px;
+  box-shadow: 1px 1px 50px var(--background);
+  border-radius: 20px
+}
+
+.h2 {
+  margin-bottom: 1.6rem;
+  text-align: center;
+}
+
+.button {
+  width: 100%;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+}
+
+.button:hover {
+  background-color: var(--purple);
+  transform: scale(1.02);
+}
