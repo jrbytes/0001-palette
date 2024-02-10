@@ -17,6 +17,11 @@
       "@/*": ["./src/*"]
     }
   },
+  "awesomeTypescriptLoaderOptions": {
+    "useBabel": true,
+    "useCache": true,
+    "useTranspileModule": true
+  },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
 }
