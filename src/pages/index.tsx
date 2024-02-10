@@ -20,6 +20,7 @@ export default function Home() {
         <Link href="/palette">01. Palette Copy To Clipboard</Link>
         <Link href="/draft-js">02. Draft.js: Rich Text Editor Framework</Link>
         <Link href="/async-button">03. Async Button: Async Button With Feedback</Link>
+        <Link href="/conditional-rendering">04. Conditional Rendering</Link>
       </main>
     </>
   )
