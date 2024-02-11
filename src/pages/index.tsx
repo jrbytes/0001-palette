@@ -22,6 +22,7 @@ export default function Home() {
         <Link href="/async-button">03. Async Button: Async Button With Feedback</Link>
         <Link href="/conditional-rendering">04. Conditional Rendering</Link>
         <Link href="/lists-and-keys">05. Lists And Keys</Link>
+        <Link href="/components-and-props">06. Components And Props</Link>
       </main>
     </>
   )

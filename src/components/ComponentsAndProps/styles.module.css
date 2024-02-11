@@ -1,0 +1,20 @@
+.wrapper {
+  width: 600px;
+  background-color: var(--background);
+  box-shadow: 1px 1px 50px var(--background);
+  border-radius: 20px;
+  margin-bottom: 40px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.content {
+  padding: 40px;
+}
+
+.blue {
+  color: #007bff;
+}
