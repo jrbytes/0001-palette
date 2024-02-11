@@ -21,6 +21,7 @@ export default function Home() {
         <Link href="/draft-js">02. Draft.js: Rich Text Editor Framework</Link>
         <Link href="/async-button">03. Async Button: Async Button With Feedback</Link>
         <Link href="/conditional-rendering">04. Conditional Rendering</Link>
+        <Link href="/lists-and-keys">05. Lists And Keys</Link>
       </main>
     </>
   )
