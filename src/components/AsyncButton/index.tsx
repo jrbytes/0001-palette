@@ -1,16 +1,9 @@
-import { useCallback, useState } from 'react'
+import { useIsLoading } from './isLoading'
 import s from './styles.module.css'
 
 export function AsyncButton () {
-  const [isLoading, setIsLoading] = useState(false)
-
-  const simulateAPI = useCallback(() => {
-    setIsLoading(true)
-    setTimeout(() => {
-      setIsLoading(false)
-    }, 2000)
-  }, [])
-
+  const { isLoading, simulateAPI } = useIsLoading()
+  
   return (
     <div className={s.wrapper}>
       <h2 className={s.h2}>Async Button: {isLoading ? 'Clicked' : 'To Click'}</h2>
