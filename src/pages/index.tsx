@@ -24,6 +24,7 @@ export default function Home() {
         <Link href="/lists-and-keys">05. Lists And Keys</Link>
         <Link href="/components-and-props">06. Components And Props</Link>
         <Link href="/usecallback-star-trek-mission">07. useCallback - Star Trek Mission</Link>
+        <Link href="/usememo-star-trek-crew">07. useMemo - Star Trek Crew</Link>
       </main>
     </>
   )
