@@ -1,0 +1,19 @@
+.wrapper {
+  width: 700px;
+  background-color: var(--background);
+  padding: 40px;
+  box-shadow: 1px 1px 50px var(--background);
+  border-radius: 20px;
+}
+
+.h2 {
+  margin-bottom: 1.6rem;
+  text-align: center;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: var(--purple);
+}
