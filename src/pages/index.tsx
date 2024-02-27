@@ -27,6 +27,7 @@ export default function Home() {
         <Link href="/usememo-star-trek-crew">08. useMemo - Star Trek Crew</Link>
         <Link href="/useeffect-star-trek-enterprise">09. useEffect - Star Trek Enterprise</Link>
         <Link href="/follow-pointer-framer-motion">10. Follow Pointer - Framer Motion</Link>
+        <Link href="/variants-framer-motion">11. Variants - Framer Motion</Link>
       </main>
     </>
   )
